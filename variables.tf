@@ -34,7 +34,7 @@ variable "environment" {
 
 variable "attributes" {
   type        = list(string)
-  default     = []
+  default     = ["policy"]
   description = "Additional attributes (e.g. `1`)"
 }
 
